@@ -1,0 +1,500 @@
+<!doctype html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <!-- Font Awesome icons (free version)-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+  <style>
+    .image-container {
+      position: relative;
+      overflow: hidden;
+      margin-bottom: 20px;
+    }
+
+    .image-container img {
+      width: 100%;
+      height: auto;
+      transition: transform 0.3s ease-in-out, border 0.3s ease-in-out;
+    }
+
+    .image-container:hover img {
+      transform: scale(1.1);
+    }
+
+    .hover-icon {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      display: none;
+      color: #0c0d2477;
+      font-size: 80px;
+    }
+
+    .image-container:hover .hover-icon {
+      display: block;
+    }
+  </style>
+
+
+  <title>Abeer Hadadi</title>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand ms-3 fs-3 fw-bold" href="#">Abeer</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list-nested"
+            viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+              d="M4.5 11.5A.5.5 0 0 1 5 11h10a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5m-2-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m-2-4A.5.5 0 0 1 1 3h10a.5.5 0 0 1 0 1H1a.5.5 0 0 1-.5-.5" />
+          </svg>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto p-2 fs-5">
+
+            <li class="nav-item">
+              <a class="nav-link" href="#Portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#About">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Courses">Courses</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+    <!-- Portfolio -->
+    <section id="Portfolio" class="">
+      <div class="container text-center py-2">
+        <div class="row justify-content-center">
+          <div class="col-md-auto">
+            <img src="images/AbeerBG.png" class="img-fluid" alt="Image" id="PortfolioImg">
+          </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-md-auto fs-2">
+            Hi I'm Abeer! <br>
+            I'm a <span class="auto-type"></span>
+          </div>
+        </div>
+      </div>
+
+
+
+    </section>
+
+    <!-- About  -->
+    <section id="About" class="bg-dark-subtle py-4">
+
+      <div class="container text-center">
+        <div class="row justify-content-center">
+
+          <div class="col-xxl-4">
+            <h1>-- <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-person-rolodex" viewBox="0 0 16 16">
+                <path d="M8 9.05a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5" />
+                <path
+                  d="M1 1a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h.5a.5.5 0 0 0 .5-.5.5.5 0 0 1 1 0 .5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5.5.5 0 0 1 1 0 .5.5 0 0 0 .5.5h.5a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1H6.707L6 1.293A1 1 0 0 0 5.293 1zm0 1h4.293L6 2.707A1 1 0 0 0 6.707 3H15v10h-.085a1.5 1.5 0 0 0-2.4-.63C11.885 11.223 10.554 10 8 10c-2.555 0-3.886 1.224-4.514 2.37a1.5 1.5 0 0 0-2.4.63H1z" />
+              </svg> -- </h1>
+          </div>
+
+          <div class="col-xxl-4 py-2">
+            <h3 class="fw-semibold">About Me</h3>
+          </div>
+
+          <div class="col-xxl-4">
+            <p class="fs-5 px-2">Recent graduate with a degree in Computer Science, interested in UX/UI design, graphics
+              design, machine
+              learning, web
+              design and development. Seeking a job opportunity where I can apply my skills and knowledge in a highly
+              reputable
+              organization that offers extensive applications that will develop my career.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="Projects" class="py-5">
+
+
+      <div class="container text-center">
+        <div class="row justify-content-center">
+
+          <!--  -->
+          <div class="col-xxl-4">
+            <h1>-- <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-folder2-open" viewBox="0 0 16 16">
+                <path
+                  d="M1 3.5A1.5 1.5 0 0 1 2.5 2h2.764c.958 0 1.76.56 2.311 1.184C7.985 3.648 8.48 4 9 4h4.5A1.5 1.5 0 0 1 15 5.5v.64c.57.265.94.876.856 1.546l-.64 5.124A2.5 2.5 0 0 1 12.733 15H3.266a2.5 2.5 0 0 1-2.481-2.19l-.64-5.124A1.5 1.5 0 0 1 1 6.14zM2 6h12v-.5a.5.5 0 0 0-.5-.5H9c-.964 0-1.71-.629-2.174-1.154C6.374 3.334 5.82 3 5.264 3H2.5a.5.5 0 0 0-.5.5zm-.367 1a.5.5 0 0 0-.496.562l.64 5.124A1.5 1.5 0 0 0 3.266 14h9.468a1.5 1.5 0 0 0 1.489-1.314l.64-5.124A.5.5 0 0 0 14.367 7H1.633z" />
+              </svg> -- </h1>
+          </div>
+          <!--  -->
+          <div class="col-xxl-4 py-2">
+            <h3 class="fw-semibold pb-2">Projects</h3>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="image-container">
+              <img src="images/KAU.png" class="img-fluid rounded" alt="Image 1" data-bs-toggle="modal"
+                data-bs-target="#Modal">
+              <i class="fas fa-plus hover-icon"></i>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                  <div class="modal-header border-0">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Senior Project</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body ">
+                    <h3>A Smart University Gate using Face Recognition and IoT</h3>
+                    <ul class="text-start">
+                      <li>Design prototype using Figma <i class="fab fa-figma" style="color: #ffffff;"></i></li>
+                      <li>Building a website for registering new students using HTML <i class="fab fa-html5"
+                          style="color: #ffffff;"></i>, CSS <i class="fab fa-css3-alt" style="color: #ffffff;"></i>,
+                        JavaScript <i class="fab fa-js-square" style="color: #ffffff;"></i>, and PHP <i
+                          class="fab fa-php" style="color: #ffffff;"> </i></li>
+                      <li>Building a deep learning model for recognizing students faces using Python <i
+                          class="fab fa-python" style="color: #ffffff;"></i></li>
+                      <li>Building a smart gate to open and close based on the result of the FR or the ID card scanner
+                        (Arduino, Raspberry Pi)</li>
+                    </ul>
+
+
+                    <img src="images/kau1.jpg" class="img-fluid p-2">
+                    <img src="images/kau0.png" class="img-fluid p-2">
+                    <h3 class="pt-3">Best project and poster <i class="fas fa-award" style="color: #ffea00;"></i></h3>
+                    <img src="images/kau2.png" class="img-fluid p-2">
+                    <img src="images/kau3.jpg" class="img-fluid p-2">
+                  </div>
+                  <div class="modal-footer border-0">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--  -->
+
+          <div class="col-lg-4 col-md-6">
+            <div class="image-container">
+              <img src="images/6.png" class="img-fluid rounded" alt="Image 1" data-bs-toggle="modal"
+                data-bs-target="#Modal1">
+              <i class="fas fa-plus hover-icon"></i>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="Modal1" tabindex="-1" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+              <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                  <div class="modal-header border-0">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel1">Summer Training Project</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body ">
+
+                    <ul class="text-start">
+                      <li> Design UX/UI using Figma <i class="fab fa-figma" style="color: #ffffff;"></i>
+                        <a href="https://www.figma.com/file/bLXKVMfmva4SgVgTIEEKnC/Iconify-(Community)?type=design&node-id=0%3A1&mode=design&t=6Wm2l2BnkPnd9QtH-1"
+                          class="link-info link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Figma
+                          link</a>
+                      </li>
+                      <li>programmed a system to manage trainees and facilitate communication
+                        with supervisors using: HTML <i class="fab fa-html5" style="color: #ffffff;"></i>, CSS <i
+                          class="fab fa-css3-alt" style="color: #ffffff;"></i>, JavaScript <i class="fab fa-js-square"
+                          style="color: #ffffff;"></i>, and
+                        ASP.NET</li>
+                    </ul>
+
+
+
+                    <img src="images/sh.PNG" class="img-fluid p-2">
+                    <img src="images/j1.PNG" class="img-fluid p-2">
+                    <img src="images/JM.png" class="img-fluid p-2">
+                    <img src="images/JM2.png" class="img-fluid p-2">
+                    
+                  </div>
+                  <div class="modal-footer border-0">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--  -->
+
+          <div class="col-lg-4 col-md-6">
+            <div class="image-container">
+              <img src="images/3.png" class="img-fluid rounded" alt="Image 1" data-bs-toggle="modal"
+                data-bs-target="#Modal2">
+              <i class="fas fa-plus hover-icon"></i>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="Modal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+              <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                  <div class="modal-header border-0">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel2">Flower store website</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body ">
+
+                    <ul class="text-start">
+                      <li>programmed using: HTML <i class="fab fa-html5" style="color: #ffffff;"></i>, CSS <i
+                          class="fab fa-css3-alt" style="color: #ffffff;"></i>, JavaScript <i class="fab fa-js-square"
+                          style="color: #ffffff;"></i>, and PHP <i class="fab fa-php" style="color: #ffffff;"> </i>
+                    </ul>
+
+
+
+                    <img src="images/10.PNG" class="img-fluid p-2">
+                    <img src="images/f1.PNG" class="img-fluid p-2">
+                    <img src="images/f2.PNG" class="img-fluid p-2">
+                    <img src="images/f3.PNG" class="img-fluid p-2">
+                    <img src="images/f4.PNG" class="img-fluid p-2">
+                    <img src="images/f6.PNG" class="img-fluid p-2">
+                    <img src="images/f5.PNG" class="img-fluid p-2">
+                  </div>
+                  <div class="modal-footer border-0">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--  -->
+          <div class="col-lg-4 col-md-6">
+            <div class="image-container">
+              <img src="images/5.png" class="img-fluid rounded" alt="Image 1" data-bs-toggle="modal"
+                data-bs-target="#Modal3">
+              <i class="fas fa-plus hover-icon"></i>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="Modal3" tabindex="-1" aria-labelledby="exampleModalLabel3" aria-hidden="true">
+              <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                  <div class="modal-header border-0">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel3">Ertiqa website</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body ">
+
+                    <p class="text-start">
+                      programmed using: HTML <i class="fab fa-html5" style="color: #ffffff;"></i>, CSS <i
+                        class="fab fa-css3-alt" style="color: #ffffff;"></i>, JavaScript <i class="fab fa-js-square"
+                        style="color: #ffffff;"></i>, and Bootstrap <i class="fab fa-bootstrap"
+                        style="color: #ffffff;"></i>
+                    </p>
+
+
+                    <img src="images/h.png" class="img-fluid p-2">
+                    <img src="images/er.png" class="img-fluid p-2">
+                    <img src="images/er1.png" class="img-fluid p-2">
+                  </div>
+                  <div class="modal-footer border-0">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--  -->
+
+          <div class="col-lg-4 col-md-6">
+            <div class="image-container">
+              <img src="images/7.png" class="img-fluid rounded" alt="Image 1" data-bs-toggle="modal"
+                data-bs-target="#Modal4">
+              <i class="fas fa-plus hover-icon"></i>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="Modal4" tabindex="-1" aria-labelledby="exampleModalLabel4" aria-hidden="true">
+              <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                  <div class="modal-header border-0">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel4">Game</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body ">
+
+                    <p class="text-start">
+                      Design using: Blender
+                    </p>
+
+
+
+                    <img src="images/a3.jpg" class="img-fluid p-2">
+
+                    <img src="images/a4.jpg" class="img-fluid p-2">
+                    <img src="images/a5.jpg" class="img-fluid p-2">
+                    <img src="images/a51.jpg" class="img-fluid p-2">
+                    <img src="images/a6.jpg" class="img-fluid p-2">
+                    <img src="images/a7.jpg" class="img-fluid p-2">
+                    <img src="images/a1.PNG" class="img-fluid p-2">
+                    <img src="images/a2.PNG" class="img-fluid p-2">
+
+
+
+
+                  </div>
+                  <div class="modal-footer border-0">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--  -->
+
+          <div class="col-lg-4 col-md-6">
+            <div class="image-container">
+              <img src="images/4.png" class="img-fluid rounded" alt="Image 1" data-bs-toggle="modal"
+                data-bs-target="#Modal5">
+              <i class="fas fa-plus hover-icon"></i>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="Modal5" tabindex="-1" aria-labelledby="exampleModalLabel5" aria-hidden="true">
+              <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                  <div class="modal-header border-0">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel5">My Portfolio</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body ">
+
+                    <p class="text-start"> This website
+                      programmed using: HTML <i class="fab fa-html5" style="color: #ffffff;"></i>, CSS <i
+                        class="fab fa-css3-alt" style="color: #ffffff;"></i>, JavaScript <i class="fab fa-js-square"
+                        style="color: #ffffff;"></i>, and Bootstrap <i class="fab fa-bootstrap"
+                        style="color: #ffffff;"></i>
+                    </p>
+
+
+
+                  </div>
+                  <div class="modal-footer border-0">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Courses -->
+    <section id="Courses" class="bg-dark-subtle py-5">
+
+      <div class="container text-center">
+        <div class="row justify-content-center">
+
+          <!--  -->
+          <div class="col-xxl-4">
+            <h1>-- <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-journals" viewBox="0 0 16 16">
+                <path
+                  d="M5 0h8a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2 2 2 0 0 1-2 2H3a2 2 0 0 1-2-2h1a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1H1a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v9a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1H3a2 2 0 0 1 2-2" />
+                <path
+                  d="M1 6v-.5a.5.5 0 0 1 1 0V6h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0V9h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 2.5v.5H.5a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1H2v-.5a.5.5 0 0 0-1 0" />
+              </svg> -- </h1>
+          </div>
+          <!--  -->
+          <div class="col-xxl-4 py-2">
+            <h3 class="fw-semibold pb-2">Courses & Certificates</h3>
+          </div>
+        </div>
+      </div>
+
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner px-5">
+          <div class="carousel-item active">
+            <img src="images/Capture0.PNG" class="d-block w-100">
+          </div>
+
+          <div class="carousel-item">
+            <img src="images/Capture3.PNG" class="d-block w-100">
+          </div>
+          <div class="carousel-item">
+            <img src="images/Capture4.PNG" class="d-block w-100">
+          </div>
+          <div class="carousel-item">
+            <img src="images/Capture5.PNG" class="d-block w-100">
+          </div>
+          <div class="carousel-item">
+            <img src="images/Capture6.PNG" class="d-block w-100">
+          </div>
+          <div class="carousel-item">
+            <img src="images/Capture.PNG" class="d-block w-100">
+          </div>
+
+          <div class="carousel-item">
+            <img src="images/Capture2.PNG" class="d-block w-100">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- <section class="py-5"></section> -->
+  </div>
+
+
+
+  <!-- Scripts -->
+
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+  <!-- Typed -->
+  <script>
+    var typed = new Typed('.auto-type', {
+      strings: ['UI Designer', 'Web Developer'],
+      tupeSpeed: 150,
+      backspeed: 150,
+      loop: true
+    });
+  </script>
+  <!-- END Scripts -->
+</body>
+
+</html>
