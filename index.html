@@ -1,15 +1,13 @@
-<!doctype html>
-<html lang="en" data-bs-theme="dark">
-
+<!DOCTYPE html>
+<html lang="en"  data-bs-theme="dark">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <!-- Font Awesome icons (free version)-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-
   <style>
     .image-container {
       position: relative;
@@ -39,6 +37,12 @@
 
     .image-container:hover .hover-icon {
       display: block;
+    }
+
+    @media (max-width: 767.98px) {
+      .custom-margin {
+        margin-top: 3rem !important;
+      }
     }
   </style>
 
@@ -81,20 +85,26 @@
     </nav>
     <!-- End Navbar -->
     <!-- Portfolio -->
-    <section id="Portfolio" class="fade-up">
-      <div class="container text-center py-2">
-        <div class="row justify-content-center">
-          <div class="col-md-auto">
-            <img src="images/AbeerBG.png" class="img-fluid" alt="Image" id="PortfolioImg">
+    <section id="Portfolio" class="fade-up py-5">
+      <div class="container text-center py-5">
+
+
+        <div class="row flex-column-reverse flex-lg-row pb-5">
+          <div class="col-lg-6 col-md-6 text-start ps-5">
+            <h3 class="custom-margin" style="margin-top: 25%;">Hi</h3>
+            <h2>I'm <strong>Abeer!</strong></h2>
+            <h2><span class="auto-type"></span></h2>
+          
+          </div>
+          <div class="col-lg-6 col-md-6">
+            <img src="images/abeer.png" class="img-fluid" alt="Image">
           </div>
         </div>
 
-        <div class="row justify-content-center pb-3">
-          <div class="col-md-auto fs-2">
-            Hi I'm Abeer! <br>
-            I'm a <span class="auto-type"></span>
-          </div>
-        </div>
+
+
+
+
       </div>
 
 
@@ -133,7 +143,7 @@
     </section>
 
     <!-- Projects -->
-    <section id="Projects" class="slide-in py-4">
+    <section id="Projects" class="py-4">
 
 
       <div class="container text-center">
@@ -166,12 +176,12 @@
               <div class="modal-dialog modal-xl">
                 <div class="modal-content">
                   <div class="modal-header border-0">
-                    <h1 class="modal-title fs-5" id="exampleModalLabel">Senior Project</h1>
+                    <h3 class="modal-title" id="exampleModalLabel">Senior Project</h3>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
-                  <div class="modal-body ">
-                    <h3>A Smart University Gate using Face Recognition and IoT</h3>
-                    <ul class="text-start">
+                  <div class="modal-body text-start">
+                    <h5>A Smart University Gate using Face Recognition and IoT</h5>
+                    <ul>
                       <li>Design prototype using Figma <i class="fab fa-figma" style="color: #ffffff;"></i></li>
                       <li>Building a website for registering new students using HTML <i class="fab fa-html5"
                           style="color: #ffffff;"></i>, CSS <i class="fab fa-css3-alt" style="color: #ffffff;"></i>,
@@ -211,7 +221,7 @@
               <div class="modal-dialog modal-xl">
                 <div class="modal-content">
                   <div class="modal-header border-0">
-                    <h1 class="modal-title fs-5" id="exampleModalLabel1">Summer Training Project</h1>
+                    <h3 class="modal-title" id="exampleModalLabel1">Summer Training Project</h3>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
                   <div class="modal-body ">
@@ -259,16 +269,16 @@
               <div class="modal-dialog modal-xl">
                 <div class="modal-content">
                   <div class="modal-header border-0">
-                    <h1 class="modal-title fs-5" id="exampleModalLabel2">Flower store website</h1>
+                    <h3 class="modal-title" id="exampleModalLabel2">Flower store website</h3>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
                   <div class="modal-body ">
 
-                    <ul class="text-start">
-                      <li>programmed using: HTML <i class="fab fa-html5" style="color: #ffffff;"></i>, CSS <i
+                    <p class="text-start">
+                      Programmed using: HTML <i class="fab fa-html5" style="color: #ffffff;"></i>, CSS <i
                           class="fab fa-css3-alt" style="color: #ffffff;"></i>, JavaScript <i class="fab fa-js-square"
                           style="color: #ffffff;"></i>, and PHP <i class="fab fa-php" style="color: #ffffff;"> </i>
-                    </ul>
+                      </p>
 
 
 
@@ -300,13 +310,13 @@
               <div class="modal-dialog modal-xl">
                 <div class="modal-content">
                   <div class="modal-header border-0">
-                    <h1 class="modal-title fs-5" id="exampleModalLabel3">Ertiqa website</h1>
+                    <h3 class="modal-title" id="exampleModalLabel3">Ertiqa website</h3>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
                   <div class="modal-body ">
 
                     <p class="text-start">
-                      programmed using: HTML <i class="fab fa-html5" style="color: #ffffff;"></i>, CSS <i
+                      Programmed using: HTML <i class="fab fa-html5" style="color: #ffffff;"></i>, CSS <i
                         class="fab fa-css3-alt" style="color: #ffffff;"></i>, JavaScript <i class="fab fa-js-square"
                         style="color: #ffffff;"></i>, and Bootstrap <i class="fab fa-bootstrap"
                         style="color: #ffffff;"></i>
@@ -338,7 +348,7 @@
               <div class="modal-dialog modal-xl">
                 <div class="modal-content">
                   <div class="modal-header border-0">
-                    <h1 class="modal-title fs-5" id="exampleModalLabel4">Game</h1>
+                    <h3 class="modal-title" id="exampleModalLabel4">Graphic Design Project</h3>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
                   <div class="modal-body ">
@@ -385,7 +395,7 @@
               <div class="modal-dialog modal-xl">
                 <div class="modal-content">
                   <div class="modal-header border-0">
-                    <h1 class="modal-title fs-5" id="exampleModalLabel5">My Portfolio</h1>
+                    <h3 class="modal-title" id="exampleModalLabel5">My Portfolio</h3>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
                   <div class="modal-body ">
@@ -477,45 +487,44 @@
     <!-- <section class="py-5"></section> -->
   </div>
 
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
 
-  <!-- Scripts -->
+<script>
+  var typed = new Typed('.auto-type', {
+    strings: ['UI Designer', 'Web Developer'],
+    typeSpeed: 50,
+    backSpeed: 30,
+    backDelay: 1000,
+    loop: true
+  });
 
-  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  // 
+</script>
 
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var elements = document.querySelectorAll('.scale-fade');
 
-  <!-- Typed -->
-  <script>
-    var typed = new Typed('.auto-type', {
-      strings: ['UI Designer', 'Web Developer'],
-      typeSpeed: 50,
-      backSpeed: 30,
-      backDelay: 1000,
-      loop: true
-    });
+    function checkVisibility() {
+      elements.forEach(function (element) {
+        var position = element.getBoundingClientRect();
 
-// 
+        if (position.top < window.innerHeight) {
+          element.classList.add('animated');
+        }
+      });
+    }
 
-    document.addEventListener("DOMContentLoaded", function () {
-      var elements = document.querySelectorAll('.scale-fade');
+    window.addEventListener('scroll', checkVisibility);
+    checkVisibility(); // Check on page load
+  });
+</script>
+<!-- // -->
 
-      function checkVisibility() {
-        elements.forEach(function (element) {
-          var position = element.getBoundingClientRect();
-
-          if (position.top < window.innerHeight) {
-            element.classList.add('animated');
-          }
-        });
-      }
-
-      window.addEventListener('scroll', checkVisibility);
-      checkVisibility(); // Check on page load
-    });
-
-// 
-    document.addEventListener("DOMContentLoaded", function () {
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
     var elements = document.querySelectorAll('.fade-up');
 
     function checkVisibility() {
@@ -531,27 +540,7 @@
     window.addEventListener('scroll', checkVisibility);
     checkVisibility(); // Check on page load
   });
+</script>
 
-
-  // 
-  document.addEventListener("DOMContentLoaded", function () {
-    var elements = document.querySelectorAll('.slide-in');
-
-    function checkVisibility() {
-      elements.forEach(function (element) {
-        var position = element.getBoundingClientRect();
-
-        if (position.top < window.innerHeight) {
-          element.classList.add('animated');
-        }
-      });
-    }
-
-    window.addEventListener('scroll', checkVisibility);
-    checkVisibility(); // Check on page load
-  });
-  </script>
-  <!-- END Scripts -->
 </body>
-
 </html>
