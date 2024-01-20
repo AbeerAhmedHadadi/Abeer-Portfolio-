@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en"  data-bs-theme="dark">
+<html lang="en" data-bs-theme="dark">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -85,7 +86,7 @@
     </nav>
     <!-- End Navbar -->
     <!-- Portfolio -->
- <section id="Portfolio" class="fade-up">
+    <section id="Portfolio" class="fade-up">
       <div class="container text-center py-2">
         <div class="row justify-content-center">
           <div class="col-md-auto">
@@ -94,13 +95,13 @@
         </div>
 
         <div class="row justify-content-center">
-        <div class="row justify-content-center py-4">
-          <div class="col-md-auto fs-2">
-            Hi I'm Abeer! <br>
-            I'm a <span class="auto-type"></span>
+          <div class="row justify-content-center py-4">
+            <div class="col-md-auto fs-2">
+              Hi I'm Abeer! <br>
+              I'm a <span class="auto-type"></span>
+            </div>
           </div>
         </div>
-      </div>
     </section>
 
     <!-- About  -->
@@ -123,12 +124,10 @@
           </div>
 
           <div class="col-xxl-4">
-            <p class="fs-5 px-2">Recent graduate with a degree in Computer Science, interested in UX/UI design, graphics
-              design, machine
-              learning, web
-              design and development. Seeking a job opportunity where I can apply my skills and knowledge in a highly
-              reputable
-              organization that offers extensive applications that will develop my career.</p>
+            <p class="fs-5 px-2">I am a Computer Science graduate from King Abdulaziz University with a strong interest
+              in UX/UI web design, development, and graphics design. I achieved excellent academic results and am eager
+              to bring my skills to a creative and dynamic work environment. I'm looking for opportunities to contribute
+              my technical abilities and creativity to make a positive impact on innovative projects.</p>
           </div>
         </div>
       </div>
@@ -190,7 +189,7 @@
                     <img src="images/kau0.png" class="img-fluid p-2">
                     <h3 class="pt-3">Best project and poster <i class="fas fa-award" style="color: #ffea00;"></i></h3>
                     <img src="images/kau2.png" class="img-fluid p-2">
-                    <img src="images/kau3.jpg" class="img-fluid p-2">
+                    <img src="images/kauaw.jpg" class="img-fluid p-2">
                   </div>
                   <div class="modal-footer border-0">
                     <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
@@ -268,17 +267,17 @@
 
                     <p class="text-start">
                       Programmed using: HTML <i class="fab fa-html5" style="color: #ffffff;"></i>, CSS <i
-                          class="fab fa-css3-alt" style="color: #ffffff;"></i>, JavaScript <i class="fab fa-js-square"
-                          style="color: #ffffff;"></i>, and PHP <i class="fab fa-php" style="color: #ffffff;"> </i>
-                      </p>
+                        class="fab fa-css3-alt" style="color: #ffffff;"></i>, JavaScript <i class="fab fa-js-square"
+                        style="color: #ffffff;"></i>, and PHP <i class="fab fa-php" style="color: #ffffff;"> </i>
+                    </p>
 
 
 
                     <img src="images/10.PNG" class="img-fluid p-2">
                     <img src="images/f1.PNG" class="img-fluid p-2">
-                    <img src="images/f2.PNG" class="img-fluid p-2">
                     <img src="images/f3.PNG" class="img-fluid p-2">
                     <img src="images/f4.PNG" class="img-fluid p-2">
+                    <img src="images/f2.PNG" class="img-fluid p-2">
                     <img src="images/f6.PNG" class="img-fluid p-2">
                     <img src="images/f5.PNG" class="img-fluid p-2">
                   </div>
@@ -315,7 +314,7 @@
                     </p>
 
 
-                    <img src="images/h.png" class="img-fluid p-2">
+                    <img src="images/hert.PNG" class="img-fluid p-2">
                     <img src="images/er.png" class="img-fluid p-2">
                     <img src="images/er1.png" class="img-fluid p-2">
                   </div>
@@ -476,63 +475,66 @@
       </div>
     </section>
 
-    <!-- <section class="py-5"></section> -->
+    <section class="py-3 justify-content-center text-center">
+      <h5 class="fw-bold">&copy; Abeer Hadadi</h5>
+    </section>
   </div>
 
-<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
 
-<script>
-  var typed = new Typed('.auto-type', {
-    strings: ['UI Designer', 'Web Developer'],
-    typeSpeed: 50,
-    backSpeed: 30,
-    backDelay: 1000,
-    loop: true
-  });
+  <script>
+    var typed = new Typed('.auto-type', {
+      strings: ['UI Designer', 'Web Developer'],
+      typeSpeed: 50,
+      backSpeed: 30,
+      backDelay: 1000,
+      loop: true
+    });
 
-  // 
-</script>
+    // 
+  </script>
 
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    var elements = document.querySelectorAll('.scale-fade');
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      var elements = document.querySelectorAll('.scale-fade');
 
-    function checkVisibility() {
-      elements.forEach(function (element) {
-        var position = element.getBoundingClientRect();
+      function checkVisibility() {
+        elements.forEach(function (element) {
+          var position = element.getBoundingClientRect();
 
-        if (position.top < window.innerHeight) {
-          element.classList.add('animated');
-        }
-      });
-    }
+          if (position.top < window.innerHeight) {
+            element.classList.add('animated');
+          }
+        });
+      }
 
-    window.addEventListener('scroll', checkVisibility);
-    checkVisibility(); // Check on page load
-  });
-</script>
-<!-- // -->
+      window.addEventListener('scroll', checkVisibility);
+      checkVisibility(); // Check on page load
+    });
+  </script>
+  <!-- // -->
 
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    var elements = document.querySelectorAll('.fade-up');
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      var elements = document.querySelectorAll('.fade-up');
 
-    function checkVisibility() {
-      elements.forEach(function (element) {
-        var position = element.getBoundingClientRect();
+      function checkVisibility() {
+        elements.forEach(function (element) {
+          var position = element.getBoundingClientRect();
 
-        if (position.top < window.innerHeight) {
-          element.classList.add('animated');
-        }
-      });
-    }
+          if (position.top < window.innerHeight) {
+            element.classList.add('animated');
+          }
+        });
+      }
 
-    window.addEventListener('scroll', checkVisibility);
-    checkVisibility(); // Check on page load
-  });
-</script>
+      window.addEventListener('scroll', checkVisibility);
+      checkVisibility(); // Check on page load
+    });
+  </script>
 
 </body>
+
 </html>
